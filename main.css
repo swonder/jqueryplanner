@@ -1,0 +1,109 @@
+body {
+  /*font-family: verdana;*/
+  font-family: 'Roboto', sans-serif;
+}
+
+#container {
+  border: 1px solid grey;
+  border-radius: 3px;
+  color: #EFEFEF;
+  background-color: #303437;
+  opacity: .8;
+  box-shadow: 4px 4px 10px grey;
+  width: 250px;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#eventslink {
+  font-size: 14px;
+  color: #1E90FF;
+  cursor: pointer;
+}
+
+#eventslink:hover {
+  text-decoration: underline;
+}
+
+#addmonth {
+  padding: 5px;
+  width: 10px;
+  float: left;
+  cursor: pointer;
+}
+
+#month {
+  padding: 5px;
+  width: 200px;
+  float:left;
+}
+
+#submonth {
+  padding: 5px;
+  width: 10px;
+  float: left;
+  cursor: pointer;
+}
+
+.days div {
+  float: left;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+}
+
+.highlightday {
+  color: #CC5500;
+  font-weight: bold;
+}
+
+.weeks {
+  clear: both;
+}
+
+.weeks div {
+  float: left;
+  width: 25px;
+  height: 25px;
+  /*padding: 5px;*/
+  padding: 2px 5px 2px 5px;
+  cursor: pointer;
+}
+
+.clear {
+  clear: both;
+}
+
+.ae {
+  padding: 5px;
+  text-align: left;
+}
+
+.aetitle {
+  font-size: 14px;
+}
+
+#de {
+  padding: 0 5px 0 5px;
+  text-align: left;
+}
+
+.detitle {
+ font-size: 14px;
+}
+
+input[type=text]
+{
+  width: 202px;
+}
+
+.eventday {
+  width: 100%;
+  padding-top: 7px;
+  border-bottom: 1px solid #666666;
+}
+
+.textleft {
+  text-align: left;
+}
